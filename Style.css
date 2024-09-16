@@ -149,3 +149,44 @@ footer .footer-bottom{
 .pagination a:hover {
     background-color: #555;
 }
+/* Add this to your Style.css file */
+.highlight {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.highlight:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* Additional styles if needed */
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
