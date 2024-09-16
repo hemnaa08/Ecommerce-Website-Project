@@ -54,49 +54,76 @@
     <section id="indoor" class="section">
         <div class="container">
             <h2 class="section-head">Indoor</h2>
-            <h3>An Extensive indoor clothing store with discounted prices.</h3>
-    
-            <div class="product-grid">
-                <!-- Product 1 -->
+            <div class="product-grid" id="page-1">
+                <!-- Page 1 Products -->
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/200" alt="Brown Watch">
+                    <img src="watch1.jpeg" alt="Brown Watch">
                     <h4>Brown Watch</h4>
                     <p>⭐⭐⭐⭐☆</p>
                     <p>₹999.00</p>
                 </div>
-                <!-- Product 2 -->
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/200" alt="Armani Exchange Watch">
+                    <img src="watch2.jpeg" alt="Armani Exchange Watch">
                     <h4>Armani Exchange Watch</h4>
                     <p>⭐⭐⭐⭐☆</p>
                     <p>₹5000.00</p>
                 </div>
-                <!-- Product 3 -->
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/200" alt="Armani Exchange Brown Watch">
+                    <img src="watch3.jpeg" alt="Armani Exchange Brown Watch">
                     <h4>Armani Exchange Brown Watch</h4>
                     <p>⭐⭐⭐⭐⭐</p>
                     <p>₹4700.00</p>
                 </div>
-                <!-- Product 4 -->
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/200" alt="Mast & Harbour Watch">
+                    <img src="watch4.jpeg" alt="Mast & Harbour Watch">
                     <h4>Mast & Harbour Watch</h4>
                     <p>⭐⭐⭐☆☆</p>
                     <p>₹599.00</p>
                 </div>
             </div>
     
-            <!-- Pagination (Optional) -->
+            <div class="product-grid" id="page-2" style="display: none;">
+                <!-- Page 2 Products -->
+                <div class="product-card">
+                    <img src="shoe1.jpeg" alt="Shirt">
+                    <h4>Nike Boot</h4>
+                    <p>⭐⭐⭐⭐☆</p>
+                    <p>₹1200.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="helm1.jpeg" alt="Jeans">
+                    <h4>Cricket Helmet</h4>
+                    <p>⭐⭐⭐⭐☆</p>
+                    <p>₹2000.00</p>
+                </div>
+                <!-- Add more products for page 2 here -->
+            </div>
+    
+            <div class="product-grid" id="page-3" style="display: none;">
+                <!-- Page 3 Products -->
+                <div class="product-card">
+                    <img src="images/shirt-2.jpg" alt="Casual Shirt">
+                    <h4>Casual Shirt</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>₹1000.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/jeans-2.jpg" alt="Black Jeans">
+                    <h4>Black Jeans</h4>
+                    <p>⭐⭐⭐⭐☆</p>
+                    <p>₹1500.00</p>
+                </div>
+                <!-- Add more products for page 3 here -->
+            </div>
+    
+            <!-- Pagination -->
             <div class="pagination">
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">→</a>
+                <a href="#" onclick="showPage(1)">1</a>
+                <a href="#" onclick="showPage(2)">2</a>
+                <a href="#" onclick="showPage(3)">3</a>
             </div>
         </div>
-    </section>
+    </section> 
     <hr>
     <section id="outdoor" class="section">
         <div class="container">
@@ -189,5 +216,6 @@
         </div>
         <div class="footer-bottom">
             Made By Hemnath
+<script src="Page.js"></script>
     </body>
 </html>
