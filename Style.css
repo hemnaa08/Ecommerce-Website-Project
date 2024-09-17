@@ -1,17 +1,17 @@
-body{
+body {
     font-family: 'PT Sans', sans-serif;
-    background-color:black;
+    background-color: black;
     margin: 0;
     color: beige;
     line-height: 1.6;
 }
 
-a{
+a {
     text-decoration: none;
-    color:#ccc;
+    color: #ccc;
 }
 
-#showcase{
+#showcase {
     margin: 0;
     padding: 0;
     background: url('pexels-zac-frith-325758-918798.jpg') no-repeat center/cover;
@@ -21,37 +21,37 @@ a{
     overflow-y: hidden;
 }
 
-#showcase.container{
+#showcase.container {
     margin-top: 25vh;
 }
 
-#showcase.h1{
-    font-size: 4rem;  
+#showcase.h1 {
+    font-size: 4rem;
 }
 
-#showcase.h2{
+#showcase.h2 {
     font-size: 2rem;
 }
 
-nav{
+nav {
     height: 40px;
     width: 100%;
     background-color: #333;
-    color: rgb(51,34,34);
+    color: rgb(51, 34, 34);
     position: fixed;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     float: left;
 }
 
-nav a{
+nav a {
     display: inline-block;
     width: 100px;
     text-align: center;
@@ -60,65 +60,65 @@ nav a{
     color: beige;
 }
 
-nav li:hover{
+nav li:hover {
     background-color: #444;
 }
 
-.container{
+.container {
     max-width: 1180px;
     text-align: center;
     margin: 0 auto;
     padding: 0 3rem;
 }
 
-.lead{
+.lead {
     font-size: 1.3rem;
 }
 
-footer .footer-cols{
+footer .footer-cols {
     display: grid;
-    grid-gap:20px;
-    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
     padding: 2rem;
     text-align: left;
     font-size: 14px;
 }
 
-footer .footer-cols ul{
+footer .footer-cols ul {
     list-style: none;
 }
 
-footer .footer-cols ul li:first-child{
+footer .footer-cols ul li:first-child {
     font-size: 1.2rem;
     padding-bottom: 0.5rem;
     border-bottom: #444 solid 2px;
     margin-bottom: 1rem;
 }
 
-footer .footer-bottom{
+footer .footer-bottom {
     background-color: #333;
     padding: 1rem;
     text-align: center;
 }
 
-.section{
+.section {
     padding: 2rem 0;
 }
 
-.section-head{
+.section-head {
     font-size: 2.5rem;
     margin: 0;
 }
 
-:root{
-    ---primary-color:#b90415;
-    --primary-color-hover:#d3071b;
-    ---secondary-color:#103060;
-    --secondary-color-hover:#143f85;
-    --light-color:#f4f4f4;    
+:root {
+    --primary-color: #b90415;
+    --primary-color-hover: #d3071b;
+    --secondary-color: #103060;
+    --secondary-color-hover: #143f85;
+    --light-color: #f4f4f4;
 }
 
-.btn{
+.btn {
     padding: 1rem;
     color: #fff;
     display: inline-block;
@@ -149,7 +149,7 @@ footer .footer-bottom{
 .pagination a:hover {
     background-color: #555;
 }
-/* Add this to your Style.css file */
+
 .highlight {
     background-color: yellow;
     color: black;
@@ -164,7 +164,6 @@ footer .footer-bottom{
     color: white;
 }
 
-/* Additional styles if needed */
 .btn {
     padding: 10px 20px;
     text-align: center;
@@ -190,3 +189,36 @@ footer .footer-bottom{
     background-color: #5a6268;
 }
 
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
